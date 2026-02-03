@@ -1,5 +1,6 @@
-/* In SQL, id is the primary key column for this table.
-Each row of this table indicates the id of a customer, their name, and the id of the customer who referred them.
+
+-- SQL 50 - Find Customer Referee
+/*
 Find the names of the customer that are either:
   1. referred by any customer with id != 2.
   2. not referred by any customer.
