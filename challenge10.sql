@@ -13,6 +13,6 @@ SELECT
 FROM
     employee e left join bonus b on e.empId = b.empId
 WHERE
-    b.bonus < 1000 or e.empId not in (select empId from bonus)
+    b.bonus < 1000 or e.empId not in (select empId from bonus) -- subquery example
 ORDER BY
     e.name;
