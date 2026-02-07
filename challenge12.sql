@@ -6,7 +6,7 @@
 
 select id, movie, description, rating from Cinema Where id in (
     select case
-        when id % 2 != 0 and description != 'boring' then id
+        when id % 2 != 0 and description != 'boring' then id -- case used
     end as Odd_Id
     from Cinema
 ) order by id desc;
