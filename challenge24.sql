@@ -1,3 +1,4 @@
+-- HackerRank Advance Problems
 /*
 there is a table with daily weather data over the last 6 months of 2020, including the maximum, minimum and average temperatures. Write a query that gives month, monthly maximum, monthly minimum, monthly average temperatures for six months. Round the average to nearest integer.
 */
