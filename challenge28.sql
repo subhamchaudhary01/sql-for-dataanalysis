@@ -1,5 +1,5 @@
 -- using partition by & order by
--- Month till Date (MTD)
+-- Month till Date (Month-till-date)
 
 with a as (select
 	o.order_date,
