@@ -1,4 +1,5 @@
--- fetch top 3 pizza on basis of category
+-- fetching top N items(pizza) on basis of category
+-- where cannot be used with partition by or order by clause
 select * from (select 
 	pizza_types.category, 
     pizza_types.name, 
