@@ -1,4 +1,5 @@
 -- Example of Window Function
+-- Most important question from interview perspective
 -- Rank on the basis of sales
 /*   Sales      Rank()        Dense_Rank()   Row_Number()
      5000       1                1              1
