@@ -1,5 +1,5 @@
 -- Windows Function (Partition by Order by)
-
+-- Group by loses the data, whereas Partition by keeps every data
 
 with a as (select
 	o.order_date,
