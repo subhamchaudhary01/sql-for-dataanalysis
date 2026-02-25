@@ -1,4 +1,4 @@
--- Leetcode SQL 50
+-- Leetcode SQL 50 Basic Problems
 /* A country is big if:
     it has an area of at least three million (i.e., 3000000 km2), or
     it has a population of at least twenty-five million (i.e., 25000000). */
