@@ -10,4 +10,12 @@ FROM
   Employee 
 WHERE
   id in 
-  (SELECT managerId from Employee group by managerId having count(managerId) >= 5) order by name asc;
+  (SELECT 
+    managerId 
+  from 
+    Employee 
+  group by 
+    managerId 
+  having 
+    count(managerId) >= 5) 
+  order by name asc;

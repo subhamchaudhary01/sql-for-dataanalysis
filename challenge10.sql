@@ -3,8 +3,6 @@
 
   1. The employee has a bonus less than 1000.
   2. The employee did not get any bonus.
-
-Return the result table in any order.
 */
 
 SELECT 
