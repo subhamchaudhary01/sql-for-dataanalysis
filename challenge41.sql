@@ -1,6 +1,6 @@
 -- SQL 50 - Consecutive Numbers Medium
 /*
-  In SQL, id is the primary key for this table.
+In SQL, id is the primary key for this table.
 id is an autoincrement column starting from 1.
 Find all numbers that appear at least three times consecutively.
 Return the result table in any order.
